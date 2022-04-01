@@ -4,7 +4,8 @@ import { storage, Context } from 'near-sdk-as';
 // ----------------------------------------------------------------------------
 // Simply returns the string 'hello world' (until you edit this function as instructed in the challenge)
 export function helloWorld(): string {
-  return 'hello world';
+  const predecessor = Context.predecessor;
+  return `hello ${predecessor}`;
 }
 // ----------------------------------------------------------------------------
 
