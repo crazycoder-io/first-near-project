@@ -21,7 +21,7 @@ echo "(run this script again to see changes made by this file)"
 echo ---------------------------------------------------------
 echo
 
-near call $CONTRACT helloWorld --accountId $ACCOUNTID
+near call $CONTRACT helloWorld --accountId crazycoder.testnet
 
 echo
 echo
